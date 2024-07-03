@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/container_widget.dart';
+import 'package:myapp/row_column/column.widget.dart';
+import 'package:myapp/row_column/row.widget.dart';
+import 'package:myapp/row_column/row_column_widget.dart';
 
 void main(){
   runApp(MyApp());
@@ -14,9 +18,7 @@ class MyApp extends StatelessWidget{
           centerTitle: true,
           title: Text("Belajar Flutter"),
         ),
-        body: Center(
-          child: Text("Hello World"),
-        ),
+        body: BelajarRowColumn(),
         ),
     );
   }
